@@ -1,0 +1,5 @@
+name: softgate-docs
+version: 1.0
+title: SoftGate Docs
+nav:
+  - modules/ROOT/nav.adoc
