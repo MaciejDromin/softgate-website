@@ -1,0 +1,65 @@
+= SoftGate: Privacy Policy
+
+Welcome to the SoftGate application for Android.
+This app is free for use however you like, but is supported by Ads.
+
+== Data collected by the app
+
+To the best of my knowledge, I have not programmed this app to collect any of your personal information.
+
+I do show Ads to support the App development, but it has it's own consent pop up when first installing the app.
+The app is distributed via Google Play and it's privacy policy might also apply. 
+
+Below is the list of external services with their respective privacy policy:
+
+* https://support.google.com/admob/answer/6128543?hl=en[AdMob,window=_blank]
+* https://policies.google.com/privacy?hl=en-US[Google Play Services,window=_blank]
+
+All data created by You (integration details etc.) is stored entirely on Your device.
+This can simply be erased by clearing the app's data or uninstalling it.
+
+== Explanation of permissions requested in the app
+
+Below is the list extracted from *AndroidManifest.xml* file with all permissions requested by the app.
+Will keep this list updated.
+
+.SoftGate AndroidManifest.xml
+[source,xml]
+----
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+----
+
+[%header,cols=2*]
+|===
+^|Permission
+^|Explanation
+
+|`<uses-permission android:name="android.permission.INTERNET" />`
+|This permission is required to send `*POST*` requests to your *HA* and in general to communicate over network.
+
+|`<uses-permission android:name="android.permission.POST_NOTIFICATIONS" />`
+|When app is minimized, it will post notifications of incomming call. Highly recommended for proper app functioning.
+
+|`<uses-permission android:name="android.permission.RECORD_AUDIO" />`
+|This permission is required to be able to communicate with the person who is calling.
+
+|`<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />`
+|This permission is required to check whether you are connected to the network and whether you are able to properly integrate with 3rd party *SIP services / HA*.
+
+|`<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />`
+|This permission is required to set the playback by default into speaker mode.
+
+|`<uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />`
+|This permission is required when someone is calling so that full screen with camera preview of the caller (person at the intercom) can be initialized.
+|===
+
+== Contact Information
+
+If you have any questions regarding this privacy policy or how your data is processed, 
+feel free to contact me via https://github.com/MaciejDromin/softgate-website/issues[Github creating a new Issue,window=_blank]
+or by sending an Email at: contact@soitio.com
