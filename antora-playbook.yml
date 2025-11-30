@@ -1,10 +1,13 @@
 site:
   title: SoftGate Docs
-  start_page: softgate-docs::index.adoc
+  start_page: docs::index.adoc
 content:
   sources:
   - url: .
     branches: HEAD
+    start_paths:
+      - softgate-docs
+      - softgate-legal
 ui:
   supplemental_files:
   - path: partials/header-content.hbs
