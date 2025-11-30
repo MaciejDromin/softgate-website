@@ -1,0 +1,5 @@
+name: legal
+version: ~
+title: SoftGate Legal Docs
+nav:
+  - modules/ROOT/nav.adoc

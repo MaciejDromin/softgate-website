@@ -1,0 +1,2 @@
+* xref:legal:ROOT:index.adoc[]
+** xref:legal:ROOT:privacy-policy.adoc[]
