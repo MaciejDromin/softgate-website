@@ -1,3 +1,31 @@
 = SoftGate Guide
+:page-toclevels: 3
 
-Init Guide
+To make Your life easier, below will contain a comprehensive guide how to configure SoftGate.
+
+== Sip Configuration
+Sip Configuration is pretty straightforward.
+
+You need to Input your extension login details - number and password.
+Provide host address and select SIP protocol that you want to use.
+After inserting all this information, hit "`Save`".
+
+To verify the connection, go back to main screen.
+If SoftGate was able to connect to your SIP server, "`Sip Connection`" will have a green checkmark.
+Clicking on this Icon will trigger a Snackbar with additional information in case of error.
+
+== Integration Configuration
+
+
+=== Webhook
+
+
+=== Default Gates Values
+
+
+=== Per Caller Configuration
+
+
+==== RTSP Streams
+
+

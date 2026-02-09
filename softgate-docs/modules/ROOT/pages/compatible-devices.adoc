@@ -1,0 +1,16 @@
+= Compatible Devices
+
+SoftGate in theory supports all devices that can make calls using SIP communication protocol.
+But knowing how things sometimes are in life,
+some devices may have quirks that won't behave nicely with SoftGate.
+
+== Compatible Devices
+
+Below is the lift of devices that were confirmed to be working without any issues.
+
+.Compatible Devices
+|===
+|Manufacturer |Model |Status
+
+|Hikvision |DS-KV6133-WME1 | &#9989; Working
+|===
