@@ -1,2 +1,3 @@
 * xref:docs:ROOT:index.adoc[]
 ** xref:docs:ROOT:guide.adoc[]
+** xref:docs:ROOT:compatible-devices.adoc[]
