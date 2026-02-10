@@ -12,5 +12,5 @@ Below is the lift of devices that were confirmed to be working without any issue
 |===
 |Manufacturer |Model |Status
 
-|Hikvision |DS-KV6133-WME1 | &#9989; Working
+|Hikvision |DS-KV6133-WME1 |{set:cellbgcolor:#88E788}Working
 |===
