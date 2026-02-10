@@ -1,3 +1,8 @@
-= SoftGate - INIT
+= SoftGate
 
-Init SoftGate Docs Website
+SoftGate is designed specifically for Android users, this powerful application provides seamless
+integration with your existing intercom setup, giving you direct control over access points right
+from your smartphone.
+
+This Section will cover all necessary bits how to use the software, compatible devices, bugs
+and other relevant information.

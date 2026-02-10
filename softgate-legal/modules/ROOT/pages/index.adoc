@@ -1,3 +1,4 @@
-= SoftGate - INIT
+= SoftGate
 
-Init SoftGate Legal Docs
+This section will cover all required Legal Stuff.
+Privacy Policy and any ways how the data is handled in the app.
