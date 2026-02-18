@@ -2,7 +2,14 @@ site:
   title: SoftGate Docs
   start_page: docs::index.adoc
   url: https://softgate.soitio.com
-  robots: allow
+  robots: |
+    User-agent: *
+    Disallow: /app-ads.txt
+
+    User-agent: *
+    Allow: /
+
+    Sitemap: https://softgate.soitio.com/sitemap.xml
 content:
   sources:
   - url: .
