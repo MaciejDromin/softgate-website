@@ -1,6 +1,8 @@
 site:
   title: SoftGate Docs
   start_page: docs::index.adoc
+  url: https://softgate.soitio.com
+  robots: allow
 content:
   sources:
   - url: .
